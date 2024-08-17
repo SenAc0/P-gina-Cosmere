@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav {
+    background-color: #c3c3c5;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li a {
+    color: rgb(24, 24, 26);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+img {
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header, .about-urithiru {
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
